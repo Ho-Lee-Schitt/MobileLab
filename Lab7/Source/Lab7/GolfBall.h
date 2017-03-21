@@ -26,4 +26,21 @@ public:
 
 	void Hit(float force, FVector *direction);
 
+	// Create a blueprint event for when the ball hits a wall
+	UFUNCTION(BlueprintImplementableEvent, Category = "GolfBall")
+		void BallHitWall();
+
+private:
+
+	// Callback methods for physics related events
+	UFUNCTION()
+		void TriggerEnter(class UPrimitiveComponent* HitComp, class AActor* OtherActor,
+			class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+	UFUNCTION()
+		void TriggerExit(class UPrimitiveComponent* HitComp, class AActor* OtherActor,
+			class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	UFUNCTION()
+		void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
 };

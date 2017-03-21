@@ -33,7 +33,12 @@ AGolfBall::AGolfBall()
 void AGolfBall::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Redister event for when we overlap trigger volumes
+	Ball->OnComponentBeginOverlap.AddDynamic(this, &AGolfBall::TriggerEnter);
+	Ball->OnComponentEndOverlap.AddDynamic(this, &AGolfBall::TriggerExit);
 	
+	Ball->OnComponentHit.AddDynamic(this, &AGolfBall::OnHit);
 }
 
 // Called every frame
@@ -50,6 +55,29 @@ void AGolfBall::Hit(float force, FVector *direction)
 	//Ball->AddImpulse(FVector(0.0f, 0.0f, (1.0f * force)));
 	Ball->AddForce((*direction)* force);
 	const FVector Impulse = FVector(0.0f, 0.0f, force);
+}
+
+//void AGolfBall::BallHitWall()
+//{
+//}
+
+void AGolfBall::TriggerEnter(UPrimitiveComponent * HitComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Golf Ball entered a trigger volume"));
+}
+
+void AGolfBall::TriggerExit(UPrimitiveComponent * HitComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Golf Ball exited a trigger volume"));
+}
+
+void AGolfBall::OnHit(UPrimitiveComponent * HitComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
+{
+	// Check to see if we hit a wall within the course
+	if (OtherActor->GetName().Contains("wall", ESearchCase::IgnoreCase, ESearchDir::FromStart))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Golf Ball has hit something"));
+	}
 }
 
 
