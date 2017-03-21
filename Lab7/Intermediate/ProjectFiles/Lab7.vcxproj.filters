@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Lab7.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{31B46172-1F6C-40F8-9A7E-91FE27047CFC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Lab7.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Lab7Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{49AFDF11-EFA6-41BF-AD2A-D7282B1D7EE5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Lab7">
+			<UniqueIdentifier>{174DD97D-D9F0-4DE7-B412-C725BCADC20C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Lab7\Club.cpp">
+			<Filter>Source\Lab7</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lab7\Club.h">
+			<Filter>Source\Lab7</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Lab7\GolfBall.cpp">
+			<Filter>Source\Lab7</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lab7\GolfBall.h">
+			<Filter>Source\Lab7</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Lab7\GolfLabGameModeBase.cpp">
+			<Filter>Source\Lab7</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lab7\GolfLabGameModeBase.h">
+			<Filter>Source\Lab7</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Lab7\Lab7.Build.cs">
+			<Filter>Source\Lab7</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Lab7\Lab7.cpp">
+			<Filter>Source\Lab7</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lab7\Lab7.h">
+			<Filter>Source\Lab7</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Lab7\MyClass.cpp">
+			<Filter>Source\Lab7</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lab7\MyClass.h">
+			<Filter>Source\Lab7</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

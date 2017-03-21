@@ -1,0 +1,8 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#include "Lab7.h"
+#include "GolfLabGameModeBase.h"
+
+
+
+
