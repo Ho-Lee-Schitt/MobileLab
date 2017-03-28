@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{E8A1EB0C-F52F-424A-BD25-199972E10C19}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{E90197DC-530E-4C63-A64D-E6B5A7FD48F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{7202B1BE-4954-4721-A22E-5440121A6A03}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{61663A8D-8E23-402B-8B19-4BE9D1611528}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{E72D6823-2814-4FF1-8294-E4357778A5DB}"
 EndProject
@@ -76,7 +76,6 @@ Global
 		{E72D6823-2814-4FF1-8294-E4357778A5DB}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{E72D6823-2814-4FF1-8294-E4357778A5DB}.Shipping|Win64.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{2ECBE8E8-A7F2-4612-BA00-477321B217BE}.DebugGame Editor|Android.ActiveCfg = Android_DebugGame_Editor|Win32
-		{2ECBE8E8-A7F2-4612-BA00-477321B217BE}.DebugGame Editor|Android.Build.0 = Android_DebugGame_Editor|Win32
 		{2ECBE8E8-A7F2-4612-BA00-477321B217BE}.DebugGame Editor|HTML5.ActiveCfg = HTML5_DebugGame_Editor|Win32
 		{2ECBE8E8-A7F2-4612-BA00-477321B217BE}.DebugGame Editor|Win32.ActiveCfg = DebugGame_Editor|Win32
 		{2ECBE8E8-A7F2-4612-BA00-477321B217BE}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
@@ -115,7 +114,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E72D6823-2814-4FF1-8294-E4357778A5DB} = {E8A1EB0C-F52F-424A-BD25-199972E10C19}
-		{2ECBE8E8-A7F2-4612-BA00-477321B217BE} = {7202B1BE-4954-4721-A22E-5440121A6A03}
+		{E72D6823-2814-4FF1-8294-E4357778A5DB} = {E90197DC-530E-4C63-A64D-E6B5A7FD48F3}
+		{2ECBE8E8-A7F2-4612-BA00-477321B217BE} = {61663A8D-8E23-402B-8B19-4BE9D1611528}
 	EndGlobalSection
 EndGlobal

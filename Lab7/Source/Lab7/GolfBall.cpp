@@ -77,6 +77,7 @@ void AGolfBall::OnHit(UPrimitiveComponent * HitComp, AActor * OtherActor, UPrimi
 	if (OtherActor->GetName().Contains("wall", ESearchCase::IgnoreCase, ESearchDir::FromStart))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Golf Ball has hit something"));
+        BallHitWall();
 	}
 }
 
