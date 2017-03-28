@@ -16,3 +16,6 @@ Lab7/Intermediate/ReimportCache/
 Lab7/Intermediate/CachedAssetRegistry\.bin
 
 Lab7/Lab7\.VC\.db
+*.opendb
+*.VC.opendb
+*.VC.db
