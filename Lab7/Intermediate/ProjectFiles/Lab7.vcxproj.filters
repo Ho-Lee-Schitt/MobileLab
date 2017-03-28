@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Lab7.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{BF0F5043-996D-4E88-AFFD-D8B21FE3352B}</UniqueIdentifier>
+			<UniqueIdentifier>{F61D75E1-9901-4A8C-A9B0-387854014724}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Lab7.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{FD29D287-CFE0-4132-9A2F-3B5E33D44D5C}</UniqueIdentifier>
+			<UniqueIdentifier>{4424B903-AA46-49BC-9948-01819DE06F91}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Lab7">
-			<UniqueIdentifier>{5B8A3CA0-CD0C-4D71-96E3-5AA43A607E2D}</UniqueIdentifier>
+			<UniqueIdentifier>{2A2FFA93-8509-498E-BE0D-8FAFD52FEF98}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Lab7\Club.cpp">
 			<Filter>Source\Lab7</Filter>
